@@ -1,0 +1,29 @@
+{
+    "vehicle_id": "GML-TRUCK-042",
+    "device_model": "Zebra-ET40-Edge",
+    "date_generated": "2026-11-01T17:30:22Z",
+    "telemetry_summary": {
+        "total_samples_processed": 10,
+        "corrupted_samples_ignored": 0,
+        "threshold_applied_ms2": -2.5,
+        "max_deceleration_recorded_ms2": -3.45
+    },
+    "safety_evaluation": {
+        "harsh_braking_count": 1,
+        "daily_safety_score": 85,
+        "max_score": 100,
+        "grade": "A",
+        "assurez_moi_bonus_20pct_eligible": true
+    },
+    "detected_anomalies": [
+        {
+            "line_number": 6,
+            "timestamp": 1678880005,
+            "acc_x": 0.25,
+            "acc_y": -3.45,
+            "acc_z": 9.65,
+            "severity": "CRITICAL",
+            "event_type": "HARSH_BRAKING"
+        }
+    ]
+}
